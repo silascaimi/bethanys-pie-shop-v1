@@ -69,12 +69,6 @@ figure {
   display: block;
 }
 
-nav {
-  height: 60px;
-  width: 1000px;
-  margin: 0 auto 20px;
-}
-
 table,
 td,
 th {
