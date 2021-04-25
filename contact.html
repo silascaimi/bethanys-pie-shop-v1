@@ -49,7 +49,7 @@
 
           <p>
             <label for="customerName">Your name:</label>
-            <input type="text" id="customerName" name="customerName">
+            <input type="text" id="customerName" name="customerName" required minlength="10" maxlength="75">
           </p>
 
           <p>
@@ -59,7 +59,7 @@
 
           <p>
             <label for="customerPhone">Your phone:</label>
-            <input type="tel" id="customerPhone" name="customerPhone">
+            <input type="tel" pattern="\(\d{3}\) \d{3}-\d{4}" id="customerPhone" name="customerPhone">
           </p>
 
           <p>
@@ -89,7 +89,7 @@
         <fieldset>
           <legend>Feedback</legend>
           Your feedback: <br>
-          <textarea name="" id="" cols="40" rows="3" name="feedbackText"></textarea><br>
+          <textarea name="" id="" cols="40" rows="3" name="feedbackText" required></textarea><br>
 
           Feedback type: 
           <select name="feedbackTyype" multiple="multiple" size="4">
