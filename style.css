@@ -81,3 +81,23 @@ h1,
 h2 {
   color: #a593c2;
 }
+
+fieldset {
+  border-color: #a593c2;
+  border-width: 3px;
+  border-style: solid;
+}
+
+fieldset > legend {
+  color: #a593c2;
+}
+
+p > label {
+  display: block;
+}
+
+input[type='email'],
+input[type='tel'],
+textarea {
+  border-radius: 7px;
+}

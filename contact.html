@@ -27,7 +27,7 @@
   <div style="width: 1000px; margin-left: auto; margin-right:auto;">
     <aside id="leftmenu">
       <a href="index.html"><img src="images/bethanylogo.png" ></a>
-      
+
       <header>
         <h4>Browse our pies</h4>
       </header>
@@ -47,36 +47,44 @@
         <fieldset>
           <legend>Contact Information</legend>
 
-          <label for="customerName">Your name: </label>
-          <input type="text" id="customerName" name="customerName"><br>
+          <p>
+            <label for="customerName">Your name:</label>
+            <input type="text" id="customerName" name="customerName">
+          </p>
 
-          <label for="customerEmail">Your email: </label>
-          <input type="email" id="customerEmail" name="customerEmail"><br>
+          <p>
+            <label for="customerEmail">Your email:</label>
+            <input type="email" id="customerEmail" name="customerEmail">
+          </p>
 
-          <label for="customerPhone">Your phone: </label>
-          <input type="tel" id="customerPhone" name="customerPhone">
+          <p>
+            <label for="customerPhone">Your phone:</label>
+            <input type="tel" id="customerPhone" name="customerPhone">
+          </p>
 
-          <label>
-            <input type="radio" name="phoneType" value="cell">Cell
-          </label>
-          <label>
-            <input type="radio" name="phoneType" value="work">Work
-          </label>
-          <label>
-            <input type="radio" name="phoneType" value="home">Home
-          </label>
-          <br>
+          <p>
+            <label>Phone type</label>
+            <label>
+              <input type="radio" name="phoneType" value="cell">Cell
+            </label>
+            <label>
+              <input type="radio" name="phoneType" value="work">Work
+            </label>
+            <label>
+              <input type="radio" name="phoneType" value="home">Home
+            </label>
+          </p>
 
-          Ok to contact me?:
-          <label>
-            <input type="checkbox" name="okToContact" value="phone"> By phone
-          </label>
-          <label>
-            <input type="checkbox" name="okToContact" value="email"> By email
-          </label> 
-          <br>
+          <p>
+            Ok to contact me?:
+            <label>
+              <input type="checkbox" name="okToContact" value="phone">By phone
+            </label>
+            <label>
+              <input type="checkbox" name="okToContact" value="email">By email
+            </label> 
+          </p>
         </fieldset>
-        <br>
 
         <fieldset>
           <legend>Feedback</legend>
@@ -90,12 +98,21 @@
               <option value="store">Physical Store</option>   
             </optgroup>
             <option value="webtech">Website Issue</option>
-          </select><br>
+          </select>
 
-          Severity: <input type="number" name="severityNumber" min="1" max="10"><br>
-          Severity: <input type="range" name="severityRange" min="1" max="10"><br>
-          Issue ate: <input type="date" name="issueDate"><br>
-          Issue time: <input type="time" name="issueDTime"><br>
+          <p>
+            Severity
+            <input type="number" name="severityNumber" min="1" max="10">
+          </p>
+          <p>
+            Severity: <input type="range" name="severityRange" min="1" max="10">
+          </p>
+          <p>
+            Issue ate: <input type="date" name="issueDate">
+          </p>
+          <p>
+            Issue time: <input type="time" name="issueDTime">
+          </p>
         </fieldset>  
         <input type="submit" value="SendContact">
       </form>
