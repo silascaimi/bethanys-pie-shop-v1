@@ -1,6 +1,6 @@
 body {
   margin-top: 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
   margin-left: auto;
   background-color: #e6e4d9;
   background-image: url('images/pattern.png');
@@ -78,8 +78,15 @@ th {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5 {
   color: #a593c2;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'Cookie', Verdana, Arial;
+  font-weight: normal;
 }
 
 fieldset {
@@ -94,6 +101,27 @@ fieldset > legend {
 
 p > label {
   display: block;
+}
+
+p {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+header > h3 {
+  text-align: center;
+}
+
+li > a {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+figcaption {
+  font-style: italic;
 }
 
 input[type='email'],
