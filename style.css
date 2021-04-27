@@ -89,6 +89,14 @@ h5 {
   font-weight: normal;
 }
 
+h3 {
+  font-size: 22px;
+}
+
+header > h4 {
+  text-align: center;
+}
+
 fieldset {
   border-color: #a593c2;
   border-width: 3px;
@@ -107,14 +115,6 @@ p {
   font-size: 18px;
 }
 
-h3 {
-  font-size: 22px;
-}
-
-header > h3 {
-  text-align: center;
-}
-
 li > a {
   font-weight: bold;
   line-height: 1.5;
@@ -122,6 +122,29 @@ li > a {
 
 figcaption {
   font-style: italic;
+}
+
+.promotion {
+  background-color: #23cea6;
+  color: white;
+  width: 450px;
+  text-align: center;
+  border: 10px solid #a593c2;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.promotion h2 {
+  color: white;
+}
+
+.promotion img {
+  width: 50%;
+}
+
+.promotion-purple {
+  background-color: #a593c2;
+  border-color: #23cea6;
 }
 
 input[type='email'],
