@@ -173,3 +173,15 @@ input:required,
 textarea:required {
   border-style: dashed;
 }
+
+/*
+irmão imediado
+.sidebar + h2 {
+
+}
+
+todos os elementos h2 irmãos de .sidebar
+.sidebar ~ h2 {
+
+}
+*/
