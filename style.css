@@ -147,6 +147,10 @@ figcaption {
   border-color: #23cea6;
 }
 
+#sidebar-heading {
+  font-size: 24px;
+}
+
 input[type='email'],
 input[type='tel'],
 textarea {
